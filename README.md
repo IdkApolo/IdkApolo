@@ -16,7 +16,7 @@
 </p>
 
 ### 🖥️ `whoami` — Sin etiquetas infladas, solo soluciones
-Soy **Gestor de TI** e **ingeniero que programa por diversión**. No me cuelgo medallas de *"Full Stack"* porque mi enfoque no es vender humo ni seguir modas: me gusta entender la arquitectura por dentro, meter mano al código y bases de datos cuando hace falta, y armar herramientas prácticas que resuelvan problemas reales.
+Soy **Gestor de TI** e **ingeniero que programa por diversión**. Me gusta entender la arquitectura por dentro, meter mano al código y bases de datos cuando hace falta, y armar herramientas prácticas que resuelvan problemas reales.
 
 * 🏗️ **Gestión de TI & Operaciones:** Control de activos móviles y actas de entrega, automatización de flujos operativos en planta (conteo y cruce de comedores con *Forms*), centralización segura en **Synology NAS** y participación en implementación de **ERP**.
 * 💻 **Programación por Gusto:** Desarrollo de sistemas y utilidades a medida —como un **sistema para concesionaria** creado por mi cuenta— además de dashboards ejecutivos para análisis de inventarios y presupuestos.
