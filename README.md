@@ -13,6 +13,12 @@
   <a href="mailto:bedoyamarcelin@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-0d1117?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Gmail" />
   </a>
+  <a href="https://www.linkedin.com/in/marcelo-bedoya-64a649303">
+    <img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" />
+  </a>
+  <a href="https://www.instagram.com/twv_mclo/">
+    <img src="https://img.shields.io/badge/Instagram-0d1117?style=for-the-badge&logo=instagram&logoColor=E4405F" alt="Instagram" />
+  </a>
 </p>
 
 ---
@@ -20,7 +26,7 @@
 ## Tech Stack & Tools
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,java,py,nextjs,react,tailwind,html,css,spring,nodejs,mysql,docker,git,github,maven,linux,windows,vscode&perline=6&theme=dark" alt="TypeScript, JavaScript, Java, Python, Next.js, React, Tailwind CSS, Spring Boot, Node.js, MySQL, Docker, Git, GitHub, Maven, Linux, Windows y VS Code" />
+  <img src="./tech-stack-animated.svg" alt="Tecnologías de Marcelo Bedoya Ostolaza con animación suave" width="100%" />
 </p>
 
 ---
@@ -28,8 +34,7 @@
 ## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=IdkApolo&show_icons=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=1f6feb&border_color=1f6feb&hide_border=false" height="180" alt="Estadísticas de GitHub de IdkApolo" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=IdkApolo&layout=compact&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&border_color=1f6feb&hide_border=false" height="180" alt="Lenguajes más usados por IdkApolo" />
+  <img src="./languages-stats.svg" alt="Distribución representativa de lenguajes y tecnologías del stack de IdkApolo" width="100%" />
 </p>
 
 ## Contribution Activity

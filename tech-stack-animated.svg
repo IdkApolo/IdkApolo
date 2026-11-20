@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="256" viewBox="0 0 960 256" role="img" aria-labelledby="title description">
+  <title id="title">Tech Stack &amp; Tools</title>
+  <desc id="description">Tecnologías de Marcelo Bedoya Ostolaza en tarjetas oscuras con animación escalonada de flotación y pulso.</desc>
+  <style>
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-4px); }
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: .84; }
+    }
+    .tech-card {
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: float 4.8s ease-in-out infinite, pulse 4.8s ease-in-out infinite;
+    }
+    .tech-card:nth-of-type(2) { animation-delay: .18s, .18s; }
+    .tech-card:nth-of-type(3) { animation-delay: .36s, .36s; }
+    .tech-card:nth-of-type(4) { animation-delay: .54s, .54s; }
+    .tech-card:nth-of-type(5) { animation-delay: .72s, .72s; }
+    .tech-card:nth-of-type(6) { animation-delay: .9s, .9s; }
+    .tech-card:nth-of-type(7) { animation-delay: 1.08s, 1.08s; }
+    .tech-card:nth-of-type(8) { animation-delay: 1.26s, 1.26s; }
+    .tech-card:nth-of-type(9) { animation-delay: 1.44s, 1.44s; }
+    .tech-card:nth-of-type(10) { animation-delay: 1.62s, 1.62s; }
+    .tech-card:nth-of-type(11) { animation-delay: 1.8s, 1.8s; }
+    .tech-card:nth-of-type(12) { animation-delay: 1.98s, 1.98s; }
+    .tech-card:nth-of-type(13) { animation-delay: 2.16s, 2.16s; }
+    .tech-card:nth-of-type(14) { animation-delay: 2.34s, 2.34s; }
+    .tech-card:nth-of-type(15) { animation-delay: 2.52s, 2.52s; }
+    .tech-card:nth-of-type(16) { animation-delay: 2.7s, 2.7s; }
+    .tech-card:nth-of-type(17) { animation-delay: 2.88s, 2.88s; }
+    .tech-card:nth-of-type(18) { animation-delay: 3.06s, 3.06s; }
+    @media (prefers-reduced-motion: reduce) {
+      .tech-card { animation: none; }
+    }
+  </style>
+  <rect width="960" height="256" rx="12" fill="#0d1117"/>
+
+  <g class="tech-card">
+    <rect x="24" y="16" width="142" height="64" rx="11" fill="#111821" stroke="#1f6feb"/>
+    <circle cx="49" cy="48" r="15" fill="#3178c6"/>
+    <text x="49" y="52" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10" font-weight="700">TS</text>
+    <text x="72" y="52" fill="#e6edf3" font-family="Arial, sans-serif" font-size="12">TypeScript</text>
+  </g>
+  <g class="tech-card">
+    <rect x="178" y="16" width="142" height="64" rx="11" fill="#111821" stroke="#1f6feb"/>
+    <circle cx="203" cy="48" r="15" fill="#9a8700"/>
+    <text x="203" y="52" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10" font-weight="700">JS</text>
+    <text x="226" y="52" fill="#e6edf3" font-family="Arial, sans-serif" font-size="12">JavaScript</text>
+  </g>
+  <g class="tech-card">
+    <rect x="332" y="16" width="142" height="64" rx="11" fill="#111821" stroke="#1f6feb"/>
+    <circle cx="357" cy="48" r="15" fill="#b07219"/>
+    <text x="357" y="52" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10" font-weight="700">J</text>
+    <text x="380" y="52" fill="#e6edf3" font-family="Arial, sans-serif" font-size="12">Java</text>
+  </g>
+  <g class="tech-card">
+    <rect x="486" y="16" width="142" height="64" rx="11" fill="#111821" stroke="#1f6feb"/>
+    <circle cx="511" cy="48" r="15" fill="#3572a5"/>
+    <text x="511" y="52" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10" font-weight="700">Py</text>
+    <text x="534" y="52" fill="#e6edf3" font-family="Arial, sans-serif" font-size="12">Python</text>
+  </g>
+  <g class="tech-card">
+    <rect x="640" y="16" width="142" height="64" rx="11" fill="#111821" stroke="#1f6feb"/>
+    <circle cx="665" cy="48" r="15" fill="#ffffff"/>
+    <text x="665" y="52" text-anchor="middle" fill="#0d1117" font-family="Arial, sans-serif" font-size="10" font-weight="700">N</text>
+    <text x="688" y="52" fill="#e6edf3" font-family="Arial, sans-serif" font-size="12">Next.js</text>
+  </g>
+  <g class="tech-card">
+    <rect x="794" y="16" width="142" height="64" rx="11" fill="#111821" stroke="#1f6feb"/>
+    <circle cx="819" cy="48" r="15" fill="#087ea4"/>
+    <text x="819" y="52" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10" font-weight="700">R</text>
+    <text x="842" y="52" fill="#e6edf3" font-family="Arial, sans-serif" font-size="12">React</text>
+  </g>
+
+  <g class="tech-card">
+    <rect x="24" y="96" width="142" height="64" rx="11" fill="#111821" stroke="#1f6feb"/>
+    <circle cx="49" cy="128" r="15" fill="#0ea5e9"/>
+    <text x="49" y="132" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10" font-weight="700">Tw</text>
+    <text x="72" y="132" fill="#e6edf3" font-family="Arial, sans-serif" font-size="12">Tailwind CSS</text>
+  </g>
+  <g class="tech-card">
+    <rect x="178" y="96" width="142" height="64" rx="11" fill="#111821" stroke="#1f6feb"/>
+    <circle cx="203" cy="128" r="15" fill="#6db33f"/>
+    <text x="203" y="132" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10" font-weight="700">Sp</text>
+    <text x="226" y="132" fill="#e6edf3" font-family="Arial, sans-serif" font-size="12">Spring Boot</text>
+  </g>
+  <g class="tech-card">
+    <rect x="332" y="96" width="142" height="64" rx="11" fill="#111821" stroke="#1f6feb"/>
+    <circle cx="357" cy="128" r="15" fill="#68a063"/>
+    <text x="357" y="132" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10" font-weight="700">Nd</text>
+    <text x="380" y="132" fill="#e6edf3" font-family="Arial, sans-serif" font-size="12">Node.js</text>
+  </g>
+  <g class="tech-card">
+    <rect x="486" y="96" width="142" height="64" rx="11" fill="#111821" stroke="#1f6feb"/>
+    <circle cx="511" cy="128" r="15" fill="#00758f"/>
+    <text x="511" y="132" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10" font-weight="700">My</text>
+    <text x="534" y="132" fill="#e6edf3" font-family="Arial, sans-serif" font-size="12">MySQL</text>
+  </g>
+  <g class="tech-card">
+    <rect x="640" y="96" width="142" height="64" rx="11" fill="#111821" stroke="#1f6feb"/>
+    <circle cx="665" cy="128" r="15" fill="#cc2927"/>
+    <text x="665" y="132" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="9" font-weight="700">SQL</text>
+    <text x="688" y="132" fill="#e6edf3" font-family="Arial, sans-serif" font-size="12">SQL Server</text>
+  </g>
+  <g class="tech-card">
+    <rect x="794" y="96" width="142" height="64" rx="11" fill="#111821" stroke="#1f6feb"/>
+    <circle cx="819" cy="128" r="15" fill="#2496ed"/>
+    <text x="819" y="132" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10" font-weight="700">Dk</text>
+    <text x="842" y="132" fill="#e6edf3" font-family="Arial, sans-serif" font-size="12">Docker</text>
+  </g>
+
+  <g class="tech-card">
+    <rect x="24" y="176" width="142" height="64" rx="11" fill="#111821" stroke="#1f6feb"/>
+    <circle cx="49" cy="208" r="15" fill="#f05032"/>
+    <text x="49" y="212" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10" font-weight="700">Git</text>
+    <text x="72" y="212" fill="#e6edf3" font-family="Arial, sans-serif" font-size="12">Git</text>
+  </g>
+  <g class="tech-card">
+    <rect x="178" y="176" width="142" height="64" rx="11" fill="#111821" stroke="#1f6feb"/>
+    <circle cx="203" cy="208" r="15" fill="#ffffff"/>
+    <text x="203" y="212" text-anchor="middle" fill="#0d1117" font-family="Arial, sans-serif" font-size="10" font-weight="700">GH</text>
+    <text x="226" y="212" fill="#e6edf3" font-family="Arial, sans-serif" font-size="12">GitHub</text>
+  </g>
+  <g class="tech-card">
+    <rect x="332" y="176" width="142" height="64" rx="11" fill="#111821" stroke="#1f6feb"/>
+    <circle cx="357" cy="208" r="15" fill="#c71a36"/>
+    <text x="357" y="212" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10" font-weight="700">Mv</text>
+    <text x="380" y="212" fill="#e6edf3" font-family="Arial, sans-serif" font-size="12">Maven</text>
+  </g>
+  <g class="tech-card">
+    <rect x="486" y="176" width="142" height="64" rx="11" fill="#111821" stroke="#1f6feb"/>
+    <circle cx="511" cy="208" r="15" fill="#fcc624"/>
+    <text x="511" y="212" text-anchor="middle" fill="#0d1117" font-family="Arial, sans-serif" font-size="9" font-weight="700">Lin</text>
+    <text x="534" y="212" fill="#e6edf3" font-family="Arial, sans-serif" font-size="12">Linux</text>
+  </g>
+  <g class="tech-card">
+    <rect x="640" y="176" width="142" height="64" rx="11" fill="#111821" stroke="#1f6feb"/>
+    <circle cx="665" cy="208" r="15" fill="#0078d4"/>
+    <text x="665" y="212" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="9" font-weight="700">Win</text>
+    <text x="688" y="212" fill="#e6edf3" font-family="Arial, sans-serif" font-size="12">Windows</text>
+  </g>
+  <g class="tech-card">
+    <rect x="794" y="176" width="142" height="64" rx="11" fill="#111821" stroke="#1f6feb"/>
+    <circle cx="819" cy="208" r="15" fill="#007acc"/>
+    <text x="819" y="212" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10" font-weight="700">VS</text>
+    <text x="842" y="212" fill="#e6edf3" font-family="Arial, sans-serif" font-size="12">VS Code</text>
+  </g>
+</svg>
